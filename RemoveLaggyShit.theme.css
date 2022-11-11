@@ -1,0 +1,22 @@
+/**
+* @name Removes Laggy Settings Animation
+* @author ElitePrime#7266
+* @version 1
+* @description Removes the god damn animation
+/**
+
+/* remove the laggy shit */
+.layer-3QrUeG {
+    transform: none !important;
+    opacity: 1 !important;
+}
+
+.layers-OrUESM>.layer-86YKbF.animating-1rIrGV *,
+.layers-OrUESM>.layer-86YKbF.animating-1rIrGV {
+  pointer-events: auto !important;
+  will-change: unset;
+}
+
+.animating-rRxada.stop-animations {
+    z-index: 100 !important;
+}
