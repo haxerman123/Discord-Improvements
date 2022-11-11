@@ -1,0 +1,61 @@
+/**
+* @name No Serverlist Image Masking
+* @author ElitePrime#7266
+* @version 1
+* @description Removes image masking from the serverlist.
+
+/* No image masking */
+.scroller-3X7KbA .tutorialContainer-1pL9QS .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub > svg {
+  background-image: url("https://cdn.discordapp.com/attachments/733624227378495488/930753227123748894/89576a4bb71f927eb20e8aef987b499b.svg");
+}
+.scroller-3X7KbA .circleIconButton-1QV--U {
+  background: none;
+  border: dashed 1px currentColor;
+  color: var(--interactive-muted);
+  border-radius: 50%;
+}
+.scroller-3X7KbA .circleIconButton-1QV--U:hover, .scroller-3X7KbA .circleIconButton-1QV--U:active, .scroller-3X7KbA .circleIconButton-1QV--U.selected-1JjBPm {
+  color: var(--interactive-normal);
+  background: none;
+}
+.scroller-3X7KbA .tutorialContainer-2jwoiB .listItemWrapper-3d87LP foreignObject, .scroller-3X7KbA .tutorialContainer-2jwoiB + .listItem-3SmSlK .listItemWrapper-3d87LP foreignObject, .scroller-3X7KbA .tutorialContainer-2jwoiB + div + .listItem-3SmSlK .listItemWrapper-3d87LP foreignObject {
+  border-radius: 50% !important;
+  transition: 0.4s border-radius;
+  transition-timing-function: cubic-bezier(0.3, -0.5, 0, 2);
+}
+.scroller-3X7KbA .tutorialContainer-2jwoiB .listItemWrapper-3d87LP:hover foreignObject, .scroller-3X7KbA .tutorialContainer-2jwoiB .listItemWrapper-3d87LP foreignObject.selected-3mFF3I, .scroller-3X7KbA .tutorialContainer-2jwoiB + .listItem-3SmSlK .listItemWrapper-3d87LP:hover foreignObject, .scroller-3X7KbA .tutorialContainer-2jwoiB + .listItem-3SmSlK .listItemWrapper-3d87LP foreignObject.selected-3mFF3I, .scroller-3X7KbA .tutorialContainer-2jwoiB + div + .listItem-3SmSlK .listItemWrapper-3d87LP:hover foreignObject, .scroller-3X7KbA .tutorialContainer-2jwoiB + div + .listItem-3SmSlK .listItemWrapper-3d87LP foreignObject.selected-3mFF3I {
+  border-radius: 30% !important;
+}
+.scroller-3X7KbA .pill-2RsI5Q .item-2LIpTv {
+  width: 10px;
+  min-height: 10px;
+  border-radius: 50px;
+}
+.scroller-3X7KbA .wrapper-28eC3z foreignObject {
+  border-radius: 0;
+  mask: none !important;
+}
+.scroller-3X7KbA .wrapper-28eC3z .wrapper-3kah-n {
+  overflow: hidden;
+  border-radius: 50%;
+  transition: 0.4s border-radius;
+  transition-timing-function: cubic-bezier(0.3, -0.5, 0, 2);
+}
+.scroller-3X7KbA .wrapper-28eC3z .wrapper-3kah-n:hover, .scroller-3X7KbA .wrapper-28eC3z .wrapper-3kah-n.selected-1Drb7Z {
+  border-radius: 30%;
+}
+.scroller-3X7KbA .wrapper-28eC3z .folder-241Joy, .scroller-3X7KbA .wrapper-28eC3z .folderIconWrapper-1oRIZr {
+  border-radius: 14px;
+}
+.scroller-3X7KbA .wrapper-28eC3z .upperBadge-1V6Iyi {
+  background: var(--background-tertiary);
+  box-shadow: 0 0 0 3px var(--background-tertiary);
+  border-radius: 50%;
+}
+.scroller-3X7KbA .wrapper-28eC3z .upperBadge-1V6Iyi .iconBadge-3qSJIw {
+  background: var(--background-floating);
+}
+.scroller-3X7KbA .wrapper-28eC3z .upperBadge-1V6Iyi .downloadProgress-2Drg62 {
+  top: 0;
+  right: 0;
+}
